@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/pedidos.css">
+    <title>Tabelas formatadas com CSS</title>
+
+</head>
+<body>
+    <h1>tabelas formatadas com CSS</h1>
+    <h2>Tabela 1: Produtos</h2>
+    <table class="tabela-1"></table> <!-- TAG table- ínicio da tabela -->
+        <thead> <!-- THEAD- Cabeçalho da tabela -->
+            <tr>
+                <th>Imagem</th> <!-- TH- Cabeçalho da tabela -->
+                <th>Nome do Produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+            </tr>
+        </thead>
+        <tbody> <!-- TBODY- Corpo da tabela -->
+            <tr>
+                <td><img src="/produtos/IMG/camisa_flanelada_homem_encostado_oculos_poste.jpg" alt="Homem com camisa flanelada" width="50px"></td>
+                <td>Camisa Flanela</td>
+                <td>R$ 59,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+            <tr> <!-- TR- Linha da tabela -->
+                <td><img src="/produtos/IMG/teclado_gamer_com_teclas_laranjas_mecanico.jpg" alt="Teclado Gamer com teclas laranja" width="50px"></td>
+                <td>Teclado Gamer</td>
+                <td>R$ 129,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+            <tr>
+                <td><img src="/produtos/IMG/fone_de_ouvido_intra_auricular_em_cima_de_um_celular_com_flores_rosas.jpg" alt="Fone de Ouvido intra auricular" width="50px"></td>
+                <td>Fone de Ouvido Bluetooth</td>
+                <td>R$ 79,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- começo da segunda tabela-->
+    <h2>tabela 2: Histórico de Pedidos</h2>
+    <table class="tabela-2">
+        <thead>
+            <tr>
+                <th>Número do Pedido</th>
+                <th>Data</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>2024-04-20</td>
+                <td>R$ 234,50</td>
+                <td>Entregue</td>
+            </tr>
+            <tr>
+                <td>56789</td>
+                <td>2024-04-15</td>
+                <td>R$ 149,90</td>
+                <td>Em Processamento</td>
+            </tr>
+            <tr>
+                <td>09876</td>
+                <td>2024-04-10</td>
+                <td>R$ 89,90</td>
+                <td>Aguardando Pagamento</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
