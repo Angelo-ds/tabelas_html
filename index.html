@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estudos sobre tabelas</title>
+
+    <style>
+        table{
+            border: 1px solid black;
+            border-style: solid;
+            background-color: red;
+            width: 100%;
+
+        }
+        th, td {
+            color:aqua;
+            padding: 10px;
+            border-collapse: collapse; /*Remove espaços entre bordas*/
+            border-style: dashed;
+            padding: 15px;
+        }
+
+        th{
+            background: #9a9a9a;
+        }
+        .align{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <thead> <!-- Cabeçalho da tabela -->
+            <tr>
+                <th>Titulo1</th>
+                <th>Titulo2</th>
+                <th>Titulo3</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Corpo da tabela -->
+            <tr>
+                <td>informação1</td>
+                <td>informação2</td>
+                <td>informação3</td>
+            </tr>
+            <tr>
+                <td>informação4</td>
+                <td>informação5</td>
+                <td>informação6</td>
+            </tr>
+            <tr>
+                <td>informação7</td>
+                <td>informação8</td>
+                <td>informação9</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Rodapé da tabela (não é obrigatório) -->
+            <tr>
+                <td colspan="3" class="align">Dados extraídos em 23/10/25.</td> <!--colspan une as colunas-->
+            </tr>
+        </tfoot>    
+    </table>
+    
+</body>
+</html>
