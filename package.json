@@ -1,0 +1,25 @@
+{
+  "name": "tabelas_html",
+  "version": "1.0.0",
+  "description": "testes e aprendizado sobre tabelas no html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelo-ds/tabelas_html.git"
+  },
+  "keywords": [
+    "tabelas",
+    "html",
+    "semantico",
+    "css"
+  ],
+  "author": "Angelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelo-ds/tabelas_html/issues"
+  },
+  "homepage": "https://github.com/Angelo-ds/tabelas_html#readme"
+}
